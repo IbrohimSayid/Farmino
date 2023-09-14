@@ -431,11 +431,18 @@ header {
     /* 23.4px */
 }
 
-.video-container-home .button {
+.video-container-right .button {
     text-decoration: none;
     background-color: #023F3A;
     color: #fff;
     padding: 10px 22px;
+    transition: all 0.3s;
+}
+
+.video-container-right .button:hover {
+    background-color: #fff;
+    color: #023F3A;
+    outline: 2px solid #023F3A;
 }
 
 .conatct-page-container {
