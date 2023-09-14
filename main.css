@@ -397,3 +397,42 @@ header {
 .best-box img {
     width: 350px;
 }
+
+.testimonial {
+    background-color: #F2EEE9;
+    padding: 65px 0px;
+    text-align: center;
+}
+
+.testimonial-main-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+
+.testimonial-box p {
+    color: var(--Secondary-text, #525560);
+    text-align: center;
+    font-family: var(--first-shhrift);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 23.4px */
+}
+
+.testimonial-box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.slayder {
+    margin-top: 32px;
+}
